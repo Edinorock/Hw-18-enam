@@ -21,6 +21,6 @@ public enum Capacitytype {
         String capacity = capacityFrom > 0
                 ? capacityFrom + " - " + capacityTo
                 : String.valueOf(capacityTo);
-        return "Вместимость: "+ name()+"(" + capacity + " мест)";
+        return "Вместимость:  "+ name()+"(" + capacity + " мест)";
     }
 }
